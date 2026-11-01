@@ -1,0 +1,585 @@
+﻿{
+  "courses": [
+    {
+      "id": "intro-digital-marketing",
+      "name": "Intro to Digital Marketing",
+      "versions": [
+        {
+          "version": 1,
+          "note": "Initial release.",
+          "publishedAt": "2025-01-10",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "excel-business",
+      "name": "Excel for Business",
+      "versions": [
+        {
+          "version": 1,
+          "note": "Initial release.",
+          "publishedAt": "2025-02-01",
+          "items": []
+        },
+        {
+          "version": 2,
+          "note": "Added three graded quizzes and a module on pivot tables.",
+          "publishedAt": "2026-11-12",
+          "items": [
+            { "id": "q1", "label": "Q1", "type": "quiz", "required": true },
+            { "id": "q2", "label": "Q2", "type": "quiz", "required": true },
+            { "id": "q3", "label": "Q3", "type": "quiz", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sql-fundamentals",
+      "name": "SQL Fundamentals",
+      "versions": [
+        {
+          "version": 1,
+          "note": "Initial release.",
+          "publishedAt": "2025-03-01",
+          "items": [
+            { "id": "q1", "label": "Q1", "type": "quiz", "required": true },
+            { "id": "q2", "label": "Q2", "type": "quiz", "required": true },
+            { "id": "exam", "label": "Exam", "type": "exam", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "product-management",
+      "name": "Product Management Essentials",
+      "versions": [
+        {
+          "version": 1,
+          "note": "Initial release.",
+          "publishedAt": "2025-02-15",
+          "items": []
+        },
+        {
+          "version": 2,
+          "note": "Added two graded quizzes.",
+          "publishedAt": "2026-08-20",
+          "items": [
+            { "id": "q1", "label": "Q1", "type": "quiz", "required": true },
+            { "id": "q2", "label": "Q2", "type": "quiz", "required": true }
+          ]
+        },
+        {
+          "version": 3,
+          "note": "Added a graded final project and a module on discovery interviews.",
+          "publishedAt": "2027-02-18",
+          "items": [
+            { "id": "q1", "label": "Q1", "type": "quiz", "required": true },
+            { "id": "q2", "label": "Q2", "type": "quiz", "required": true },
+            { "id": "project", "label": "Project", "type": "project", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-analysis-python",
+      "name": "Data Analysis with Python",
+      "versions": [
+        {
+          "version": 1,
+          "note": "Initial release.",
+          "publishedAt": "2025-04-03",
+          "items": [
+            { "id": "q1", "label": "Q1", "type": "quiz", "required": true },
+            { "id": "q2", "label": "Q2", "type": "quiz", "required": true },
+            { "id": "exam", "label": "Exam", "type": "exam", "required": true },
+            { "id": "project", "label": "Project", "type": "project", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customer-service",
+      "name": "Customer Service Skills",
+      "versions": [
+        {
+          "version": 1,
+          "note": "Initial release.",
+          "publishedAt": "2025-01-20",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "project-management",
+      "name": "Project Management Basics",
+      "versions": [
+        {
+          "version": 1,
+          "note": "Initial release.",
+          "publishedAt": "2025-03-18",
+          "items": [
+            { "id": "q1", "label": "Q1", "type": "quiz", "required": true }
+          ]
+        },
+        {
+          "version": 2,
+          "note": "Added a second quiz on risk management.",
+          "publishedAt": "2026-12-04",
+          "items": [
+            { "id": "q1", "label": "Q1", "type": "quiz", "required": true },
+            { "id": "q2", "label": "Q2", "type": "quiz", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ux-design",
+      "name": "UX Design Fundamentals",
+      "versions": [
+        {
+          "version": 1,
+          "note": "Initial release.",
+          "publishedAt": "2025-05-06",
+          "items": [
+            { "id": "q1", "label": "Q1", "type": "quiz", "required": true },
+            { "id": "q2", "label": "Q2", "type": "quiz", "required": true },
+            { "id": "project", "label": "Project", "type": "project", "required": true }
+          ]
+        }
+      ]
+    }
+  ],
+  "learners": [
+    { "id": "lrn-01", "name": "Mona Hassan", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-02", "name": "Karim Adel", "source": "Corporate-enrolled", "employer": "Nile Telecom", "resultsPublic": true },
+    { "id": "lrn-03", "name": "Salma Nabil", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-04", "name": "Omar Fathy", "source": "Corporate-enrolled", "employer": "Delta Bank", "resultsPublic": true },
+    { "id": "lrn-05", "name": "Nour Ibrahim", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-06", "name": "Youssef Ali", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-07", "name": "Hana Samir", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-08", "name": "Ahmed Mostafa", "source": "Corporate-enrolled", "employer": "Cairo Logistics", "resultsPublic": false },
+    { "id": "lrn-09", "name": "Laila Khaled", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-10", "name": "Mahmoud Zaki", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-11", "name": "Dina Farouk", "source": "Self-directed", "resultsPublic": false },
+    { "id": "lrn-12", "name": "Tarek Hamdy", "source": "Corporate-enrolled", "employer": "Nile Telecom", "resultsPublic": true },
+    { "id": "lrn-13", "name": "Rana Wael", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-14", "name": "Sherif Magdy", "source": "Corporate-enrolled", "employer": "Delta Bank", "resultsPublic": true },
+    { "id": "lrn-15", "name": "Amira Tawfik", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-16", "name": "Hossam Naguib", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-17", "name": "Nadine Sherif", "source": "Corporate-enrolled", "employer": "Cairo Logistics", "resultsPublic": true },
+    { "id": "lrn-18", "name": "Walid Saad", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-19", "name": "Reem Gaber", "source": "Self-directed", "resultsPublic": false },
+    { "id": "lrn-20", "name": "Mostafa Ragab", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-21", "name": "Heba Mansour", "source": "Corporate-enrolled", "employer": "Nile Telecom", "resultsPublic": true },
+    { "id": "lrn-22", "name": "Ali Hassan", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-23", "name": "Farida Younis", "source": "Self-directed", "resultsPublic": true },
+    { "id": "lrn-24", "name": "Karim Samir", "source": "Corporate-enrolled", "employer": "Delta Bank", "resultsPublic": true }
+  ],
+  "certificates": [
+    {
+      "id": "483201",
+      "learnerId": "lrn-01",
+      "learnerName": "Mona Hassan",
+      "courseId": "intro-digital-marketing",
+      "courseVersion": 1,
+      "issuedAt": "2027-01-20",
+      "state": "Completed",
+      "items": [],
+      "history": []
+    },
+    {
+      "id": "517764",
+      "learnerId": "lrn-02",
+      "learnerName": "Karim Adel",
+      "courseId": "customer-service",
+      "courseVersion": 1,
+      "issuedAt": "2027-02-02",
+      "state": "Completed",
+      "items": [],
+      "history": []
+    },
+    {
+      "id": "629038",
+      "learnerId": "lrn-03",
+      "learnerName": "Salma Nabil",
+      "courseId": "excel-business",
+      "courseVersion": 2,
+      "issuedAt": "2027-01-28",
+      "state": "Verified",
+      "items": [
+        { "itemId": "q1", "score": 88, "attemptsUsed": 1 },
+        { "itemId": "q2", "score": 92, "attemptsUsed": 1 },
+        { "itemId": "q3", "score": 79, "attemptsUsed": 2 }
+      ],
+      "history": []
+    },
+    {
+      "id": "704455",
+      "learnerId": "lrn-04",
+      "learnerName": "Omar Fathy",
+      "courseId": "excel-business",
+      "courseVersion": 2,
+      "issuedAt": "2027-02-10",
+      "state": "Completed",
+      "items": [
+        { "itemId": "q1", "score": 90, "attemptsUsed": 1 },
+        { "itemId": "q2", "score": 65, "attemptsUsed": 3 },
+        { "itemId": "q3", "score": null, "attemptsUsed": 0 }
+      ],
+      "history": []
+    },
+    {
+      "id": "316982",
+      "learnerId": "lrn-05",
+      "learnerName": "Nour Ibrahim",
+      "courseId": "sql-fundamentals",
+      "courseVersion": 1,
+      "issuedAt": "2027-02-14",
+      "state": "Verified",
+      "items": [
+        { "itemId": "q1", "score": 85, "attemptsUsed": 1 },
+        { "itemId": "q2", "score": 81, "attemptsUsed": 2 },
+        { "itemId": "exam", "score": 91, "attemptsUsed": 1 }
+      ],
+      "history": []
+    },
+    {
+      "id": "852147",
+      "learnerId": "lrn-06",
+      "learnerName": "Youssef Ali",
+      "courseId": "sql-fundamentals",
+      "courseVersion": 1,
+      "issuedAt": "2027-02-16",
+      "state": "Completed",
+      "items": [
+        { "itemId": "q1", "score": 78, "attemptsUsed": 1 },
+        { "itemId": "q2", "score": 74, "attemptsUsed": 2 },
+        { "itemId": "exam", "score": 62, "attemptsUsed": 5, "locked": true }
+      ],
+      "history": []
+    },
+    {
+      "id": "245890",
+      "learnerId": "lrn-07",
+      "learnerName": "Hana Samir",
+      "courseId": "product-management",
+      "courseVersion": 2,
+      "issuedAt": "2027-01-12",
+      "state": "Verified",
+      "items": [
+        { "itemId": "q1", "score": 84, "attemptsUsed": 1 },
+        { "itemId": "q2", "score": 87, "attemptsUsed": 1 }
+      ],
+      "history": []
+    },
+    {
+      "id": "931626",
+      "learnerId": "lrn-08",
+      "learnerName": "Ahmed Mostafa",
+      "courseId": "product-management",
+      "courseVersion": 3,
+      "issuedAt": "2027-03-01",
+      "state": "Verified",
+      "items": [
+        { "itemId": "q1", "score": 80, "attemptsUsed": 1 },
+        { "itemId": "q2", "score": 83, "attemptsUsed": 2 },
+        { "itemId": "project", "score": 76, "attemptsUsed": 1 }
+      ],
+      "projectFeedback": "Good structure; trade-offs were explained briefly. Add more evidence for the assumptions.",
+      "history": []
+    },
+    {
+      "id": "478053",
+      "learnerId": "lrn-09",
+      "learnerName": "Laila Khaled",
+      "courseId": "data-analysis-python",
+      "courseVersion": 1,
+      "issuedAt": "2027-02-20",
+      "state": "Verified",
+      "items": [
+        { "itemId": "q1", "score": 91, "attemptsUsed": 1 },
+        { "itemId": "q2", "score": 88, "attemptsUsed": 1 },
+        { "itemId": "exam", "score": 95, "attemptsUsed": 1 },
+        { "itemId": "project", "score": 97, "attemptsUsed": 1 }
+      ],
+      "projectFeedback": "Excellent analysis and a clear story. The code is clean and well documented.",
+      "history": []
+    },
+    {
+      "id": "660219",
+      "learnerId": "lrn-10",
+      "learnerName": "Mahmoud Zaki",
+      "courseId": "data-analysis-python",
+      "courseVersion": 1,
+      "issuedAt": "2027-02-22",
+      "state": "Completed",
+      "items": [
+        { "itemId": "q1", "score": 82, "attemptsUsed": 1 },
+        { "itemId": "q2", "score": 79, "attemptsUsed": 1 },
+        { "itemId": "exam", "score": 71, "attemptsUsed": 1 },
+        { "itemId": "project", "score": null, "attemptsUsed": 0 }
+      ],
+      "history": []
+    },
+    {
+      "id": "394871",
+      "learnerId": "lrn-11",
+      "learnerName": "Dina Farouk",
+      "courseId": "ux-design",
+      "courseVersion": 1,
+      "issuedAt": "2027-03-05",
+      "state": "Verified",
+      "items": [
+        { "itemId": "q1", "score": 76, "attemptsUsed": 1 },
+        { "itemId": "q2", "score": 81, "attemptsUsed": 1 },
+        { "itemId": "project", "score": 84, "attemptsUsed": 1 }
+      ],
+      "projectFeedback": "Solid research and readable prototypes; the accessibility notes were thin.",
+      "history": []
+    },
+    {
+      "id": "187326",
+      "learnerId": "lrn-12",
+      "learnerName": "Tarek Hamdy",
+      "courseId": "ux-design",
+      "courseVersion": 1,
+      "issuedAt": "2027-03-06",
+      "state": "Completed",
+      "items": [
+        { "itemId": "q1", "score": 58, "attemptsUsed": 4 },
+        { "itemId": "q2", "score": 62, "attemptsUsed": 3 },
+        { "itemId": "project", "score": null, "attemptsUsed": 0 }
+      ],
+      "history": []
+    },
+    {
+      "id": "752904",
+      "learnerId": "lrn-13",
+      "learnerName": "Rana Wael",
+      "courseId": "project-management",
+      "courseVersion": 1,
+      "issuedAt": "2027-01-25",
+      "state": "Completed",
+      "items": [
+        { "itemId": "q1", "score": 68, "attemptsUsed": 2 }
+      ],
+      "history": []
+    },
+    {
+      "id": "603518",
+      "learnerId": "lrn-14",
+      "learnerName": "Sherif Magdy",
+      "courseId": "project-management",
+      "courseVersion": 2,
+      "issuedAt": "2027-03-02",
+      "state": "Verified",
+      "items": [
+        { "itemId": "q1", "score": 90, "attemptsUsed": 1 },
+        { "itemId": "q2", "score": 86, "attemptsUsed": 1 }
+      ],
+      "history": []
+    },
+    {
+      "id": "218443",
+      "learnerId": "lrn-15",
+      "learnerName": "Amira Tawfik",
+      "courseId": "intro-digital-marketing",
+      "courseVersion": 1,
+      "issuedAt": "2025-11-04",
+      "state": "Legacy",
+      "items": [],
+      "history": []
+    },
+    {
+      "id": "549077",
+      "learnerId": "lrn-16",
+      "learnerName": "Hossam Naguib",
+      "courseId": "excel-business",
+      "courseVersion": 1,
+      "issuedAt": "2025-09-18",
+      "state": "Legacy",
+      "items": [],
+      "history": []
+    },
+    {
+      "id": "826391",
+      "learnerId": "lrn-17",
+      "learnerName": "Nadine Sherif",
+      "courseId": "customer-service",
+      "courseVersion": 1,
+      "issuedAt": "2025-12-10",
+      "state": "Legacy",
+      "items": [],
+      "history": []
+    },
+    {
+      "id": "371560",
+      "learnerId": "lrn-18",
+      "learnerName": "Walid Saad",
+      "courseId": "sql-fundamentals",
+      "courseVersion": 1,
+      "issuedAt": "2026-06-30",
+      "state": "Legacy",
+      "items": [],
+      "history": []
+    },
+    {
+      "id": "940285",
+      "learnerId": "lrn-19",
+      "learnerName": "Reem Gaber",
+      "courseId": "product-management",
+      "courseVersion": 1,
+      "issuedAt": "2026-03-15",
+      "state": "Legacy",
+      "items": [],
+      "history": []
+    },
+    {
+      "id": "135792",
+      "learnerId": "lrn-20",
+      "learnerName": "Mostafa Ragab",
+      "courseId": "excel-business",
+      "courseVersion": 2,
+      "issuedAt": "2027-01-30",
+      "state": "Revoked",
+      "revokedAt": "2027-02-12",
+      "revokeReason": "error",
+      "revokeNote": "Issued by mistake",
+      "items": [],
+      "history": []
+    },
+    {
+      "id": "468210",
+      "learnerId": "lrn-21",
+      "learnerName": "Heba Mansour",
+      "courseId": "data-analysis-python",
+      "courseVersion": 1,
+      "issuedAt": "2027-02-25",
+      "state": "Revoked",
+      "revokedAt": "2027-03-10",
+      "revokeReason": "fraud",
+      "revokeNote": "Fraud confirmed",
+      "items": [],
+      "history": []
+    },
+    {
+      "id": "697134",
+      "learnerId": "lrn-22",
+      "learnerName": "Ali Hassan",
+      "courseId": "ux-design",
+      "courseVersion": 1,
+      "issuedAt": "2027-03-08",
+      "state": "Verified",
+      "items": [
+        { "itemId": "q1", "score": 79, "attemptsUsed": 2 },
+        { "itemId": "q2", "score": 82, "attemptsUsed": 1 },
+        { "itemId": "project", "score": 88, "attemptsUsed": 1 }
+      ],
+      "projectFeedback": "Thoughtful flows and clear rationale; strong visual hierarchy.",
+      "history": [
+        {
+          "date": "2026-04-02",
+          "state": "Legacy",
+          "issueDate": "2026-04-02",
+          "note": "Issued under the pre-standard policy."
+        },
+        {
+          "date": "2027-03-08",
+          "state": "Verified",
+          "issueDate": "2027-03-08",
+          "note": "Upgraded from Legacy after passing all current required items."
+        }
+      ]
+    },
+    {
+      "id": "285946",
+      "learnerId": "lrn-23",
+      "learnerName": "Farida Younis",
+      "courseId": "customer-service",
+      "courseVersion": 1,
+      "issuedAt": "2027-03-09",
+      "state": "Completed",
+      "items": [],
+      "history": []
+    },
+    {
+      "id": "713859",
+      "learnerId": "lrn-24",
+      "learnerName": "Karim Samir",
+      "courseId": "sql-fundamentals",
+      "courseVersion": 1,
+      "issuedAt": "2027-02-27",
+      "state": "Verified",
+      "items": [
+        { "itemId": "q1", "score": 72, "attemptsUsed": 3 },
+        { "itemId": "q2", "score": 74, "attemptsUsed": 2 },
+        { "itemId": "exam", "score": 83, "attemptsUsed": 1 }
+      ],
+      "history": []
+    }
+  ],
+  "policies": [
+    {
+      "version": 1,
+      "title": "Pre-standard",
+      "summary": "Before 1 Jan 2027 a certificate meant the learner finished the course. No assessment results were checked or shown.",
+      "effectiveFrom": "2025-01-01",
+      "effectiveTo": "2026-12-31",
+      "announcement": false
+    },
+    {
+      "version": 2,
+      "title": "Trust Standard 1.0",
+      "summary": "Results are public by default. Verified requires every required item at 70 or more. Certificates are never downgraded.",
+      "effectiveFrom": "2027-01-01",
+      "effectiveTo": null,
+      "announcement": false
+    }
+  ],
+  "accessRequests": [
+    {
+      "id": "req-001",
+      "certificateId": "394871",
+      "learnerId": "lrn-11",
+      "email": "recruiter@acme-hr.example",
+      "nameCompany": "Acme HR",
+      "createdAt": "2027-03-12",
+      "status": "pending"
+    },
+    {
+      "id": "req-002",
+      "certificateId": "931626",
+      "learnerId": "lrn-08",
+      "email": "talent@sample-partner.example",
+      "nameCompany": "Sample Partner",
+      "createdAt": "2027-03-09",
+      "status": "approved",
+      "approvedAt": "2027-03-10",
+      "expiresAt": "2027-03-24"
+    }
+  ],
+  "disputes": [
+    {
+      "id": "dsp-001",
+      "certificateId": "245890",
+      "learnerId": "lrn-07",
+      "reason": "The course now has a project and this certificate does not reflect it",
+      "contactEmail": "verifier@sample-employer.example",
+      "createdAt": "2027-03-13",
+      "status": "open"
+    },
+    {
+      "id": "dsp-002",
+      "certificateId": "629038",
+      "learnerId": "lrn-03",
+      "reason": "A recruiter questioned the scores on this certificate.",
+      "contactEmail": "talent@sample-partner.example",
+      "createdAt": "2027-02-05",
+      "status": "rejected",
+      "outcome": "Evidence checked; certificate unchanged",
+      "resolvedAt": "2027-02-07",
+      "action": "rejected"
+    }
+  ]
+}

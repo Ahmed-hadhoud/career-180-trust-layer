@@ -1,0 +1,16 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
+import { DemoProvider } from './lib/store'
+import { ToastProvider } from './components/ui'
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <ToastProvider>
+      <DemoProvider>
+        <App />
+      </DemoProvider>
+    </ToastProvider>
+  </React.StrictMode>,
+)
